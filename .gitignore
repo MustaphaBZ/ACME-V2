@@ -1,3 +1,27 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Nodes
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,visualstudio,visualstudiocode,csharp,angular
 # Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore,dotnetcore,visualstudio,visualstudiocode,csharp,angular
 
@@ -533,11 +557,28 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+=======
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -758,4 +799,5 @@ obj/
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,visualstudio,visualstudiocode,csharp,angular
 
 appsettings.json
+
 
